@@ -3,10 +3,11 @@
 The Bank-Account-Management-System is a console-based application built using Core Java, JDBC, and PostgreSQL. It allows users to perform CRUD (Create, Read, Update, Delete) operations on customer records stored in a PostgreSQL database. The application is menu-driven, providing a simple and intuitive interface for managing customer data.
 
 ## Features
--**Add new customer**.
--**Update details of customers**.
--**Delete customer accounts**.
--**View all customer accounts**.
+- **Add customer**: Add a new  customer record to the database.
+- **View All customer**: Fetch and display all  customer records.
+- **Update  customer**: Update an existing  customer details (e.g., id, accountname, accountholder, balance).
+- **Delete customer**: Delete an  customer record.
+
 
 ## Technologies Used
 - **Core Java**: For implementing the application logic and OOPs concepts.
