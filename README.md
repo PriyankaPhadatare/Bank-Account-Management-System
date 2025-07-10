@@ -16,13 +16,23 @@ The Bank-Account-Management-System is a console-based application built using Co
 - **Maven**: For project dependency management and building the project.
 
 ## Dependencies
-<dependency>
-    <groupId>org.postgresql</groupId>
-    <artifactId>postgresql</artifactId>
-    <version>42.6.0</version>
-</dependency>
+
+The project uses the following dependencies:
+
+- **PostgreSQL JDBC Driver**: For connecting to the PostgreSQL database.
+  ```xml
+  <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>42.6.0</version>
+  </dependency>
+  ```
 
 ## Contact
-Your Name : Priyanka Phadatare
-Email: priyankaphadatare162@gmail.com
-GitHub: PriyankaPhadatare
+- **Your Name** : Priyanka Phadatare 
+- **Email**: priyankaphadatare162@gmail.com  
+- **GitHub**: [PriyankaPhadatare](https://github.com/PriyankaPhadatare)
+
+---
+
+Enjoy using the **Employee Management System**! 🚀
