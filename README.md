@@ -27,6 +27,16 @@ The project uses the following dependencies:
       <version>42.6.0</version>
   </dependency>
   ```
+  ## Prerequisites
+. create PostgreSQL database with the following table:
+   ```sql
+ CREATE TABLE bank_account (
+        id SERIAL PRIMARY KEY,
+	    account_number VARCHAR(20),
+	    holder_name VARCHAR(100),
+	    balance NUMERIC
+   );
+   ```
 
 ## Contact
 - **Your Name** : Priyanka Phadatare 
